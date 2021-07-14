@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <title>Intelli Global</title>
+
+  <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
+  <!-- fontawesome font  -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- bootstrap 4.5  -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- animation css  -->
+  <link rel="stylesheet" href="css/custom-animation.css">
+  <!-- animate css style  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- wow css  -->
+  <link rel="stylesheet" href="css/libs/animate.css">
+  <!-- custom css link  -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- responsive css -->
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- mobile menu css  -->
+  <link rel="stylesheet" href="css/mobile-menu.css">
+</head>
+
+<body>
+
+  <!-- sideNavber  -->
+  <div id="mySidenav" class="sidenav">
+    <span class="closebtn" onclick="closeNav()">&times;</span>
+    
+
+    <div class="sidebarLogo">
+      <img src="images/off_canvas_logo.png" alt="Intelli Global" class="w-100">
+    </div>
+    <a href="">Home</a>
+    <a href="#about" onclick="closeNavWithoutTransition()">About us</a>
+    <a href="#service" onclick="closeNavWithoutTransition()">Services</a>
+    <a href="#clients" onclick="closeNavWithoutTransition()">Clients</a>
+    <a href="#contact" onclick="closeNavWithoutTransition()">Contact</a>
+  </div>
+  <!-- end sideNavber  -->
+
+  <!-- main content start  -->
+  <div id="main">
+  <!-- header section start  -->
+  <header id="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-5 col-sm-5 col-md-8">
+          <div class="menu">
+            <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button> -->
+              <span class="navbar-toggler-icon" onclick="openNav()"></span>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link active" href="#about">About us</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link active" href="#service">Services</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#clients">Clients</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div> <!-- /.menu -->
+        </div> <!-- /.col -->
+        <div class="col-7 col-sm-7 col-md-4">
+          <div class="social-icon d-flex flex-row-reverse">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="javascript:void(0)">
+                  <div class="social-bg fb-bg">
+                    <i class="fab fa-facebook-f circle-icon"></i>
+                  </div>
+                </a>
+              </li>
+              <li class="list-inline-item"> <a href="javascript:void(0)">
+                  <div class="social-bg twitter-bg">
+                    <i class="fab fa-twitter circle-icon"></i>
+                  </div>
+                </a> </li>
+              <li class="list-inline-item"> <a href="javascript:void(0)">
+                  <div class="social-bg instragram-bg">
+                    <i class="fab fa-instagram circle-icon"></i>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div> <!-- /.socail-icon -->
+        </div> <!-- /.col -->
+      </div> <!-- /.row -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="logo">
+            <img src="images/main_logo.png" alt="Intelli Global" class="w-100">
+          </div>
+        </div> <!-- /.col -->
+      </div> <!-- /.row -->
+    </div> <!-- ./container  -->
+  </header>
+  <!-- /.header section  -->
+
+  <!-- about section  -->
+  <section id="about" class="pt-md-5 pb-md-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="about-us" id="about2">
+            <p class="description gradientTitleMulti wow fadeInUp" data-wow-duration="4s" data-wow-delay="5ms">INTELLI
+              Global Services is a market leader in Information and Communications Technology.
+              <br> <br>
+              Our services are divided into three bespoke brands, INTELLI Digital, INTELLI InfoCom, and INTELLI
+              DataSoft, each with their independent management and specialized expertise.
+              <br> <br>
+              We provide top-tier ICT Solutions and help our clients achieve their business objectives.
+            </p>
+          </div>
+        </div> <!-- /.col -->
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+  </section>
+  <!-- /.about section  -->
+
+  <!-- Service section start  -->
+  <section id="service">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-item" id="digital_logo">
+            <a href="javascript:void(0)">
+              <img src="images/digital_logo.png" alt="Intelli Digital" class="w-100  wow fadeInLeft"
+                data-wow-duration="4s" data-wow-delay="5ms">
+            </a>
+          </div> <!-- /.service-item -->
+        </div> <!-- /.col -->
+        <div class="col-md-4">
+          <div class="service-item" id="infocom_logo">
+            <a href="javascript:void(0)">
+              <img src="images/infocom_logo.png" alt="Intelli Infocom" class="w-100  wow fadeIn" data-wow-duration="4s"
+                data-wow-delay="8ms">
+            </a>
+          </div> <!-- /.service-item -->
+        </div> <!-- /.col -->
+        <div class="col-md-4">
+          <div class="service-item" id="dataSoftLogo">
+            <a href="javascript:void(0)">
+              <img src="images/datasoft_logo.png" alt="Intelli Data Soft" class="w-100  wow fadeInRight"
+                data-wow-duration="4s" data-wow-delay="5ms">
+            </a>
+          </div> <!-- /.service-item -->
+        </div> <!-- /.col -->
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+  </section>
+  <!-- Service section end  -->
+
+  <!-- Clients section  -->
+  <section id="clients">
+    <div class="container">
+      <div class="client-top">
+        <h2 class="title wow fadeInRight" data-wow-duration="4s" data-wow-delay="5ms"> WHY OUR CLIENTS <br> TRUST US
+        </h2>
+        <div class="features">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="trust-item fest-border">
+                <div class="numericGradient">1.</div>
+                <h2 class="heading"> Expertise </h2>
+                <p class="details">We know
+                  what works since
+                  we are the
+                  experts.</p>
+              </div>
+            </div> <!-- /.col -->
+            <div class="col-md-4">
+              <div class="trust-item blue-border">
+                <div class="numericGradient">2.</div>
+                <h2 class="heading"> Innovation </h2>
+                <p class="details">We are always learning, evolving, and leading with innovation.</p>
+              </div>
+            </div> <!-- /.col -->
+            <div class="col-md-4">
+              <div class="trust-item pink-border">
+                <div class="numericGradient">3.</div>
+                <h2 class="heading"> Results </h2>
+                <p class="details results-pr">We have got
+                  a proven track record of delivering results.</p>
+              </div>
+            </div> <!-- /.col -->
+          </div> <!-- /.row -->
+        </div>
+      </div> <!-- /.client-top  -->
+
+      <!-- <div class="clear">
+         <img src="images/break-line.png" alt="" class="w-100">
+       </div> -->
+      <div class="gradient-clear">
+
+      </div>
+      <!-- client-bottom start  -->
+      <div class="client-bottom">
+        <div class="container">
+          <h2 class="title wow fadeInRight" data-wow-duration="4s" data-wow-delay="5ms">A FEW OF THE COMPANIES WE HAVE
+            HELPED</h2>
+          <div class="row">
+            <div class="our-clients">
+              <div class="col-6 col-md-3">
+                <div class="item">
+                  <a href="javascript:void(0)">
+                    <img src="images/clients/1.png" alt="" class="w-100">
+                  </a>
+                </div> <!-- /.item end -->
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="item">
+                  <a href="javascript:void(0)">
+                    <img src="images/clients/2.png" alt="" class="w-100">
+                  </a>
+                </div> <!-- /.item end -->
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="item">
+                  <a href="javascript:void(0)">
+                    <img src="images/clients/3.png" alt="" class="w-100">
+                  </a>
+                </div> <!-- /.item end -->
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="item">
+                  <a href="javascript:void(0)">
+                    <img src="images/clients/4.png" alt="" class="w-100">
+                  </a>
+                </div> <!-- /.item end -->
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="item">
+                  <a href="javascript:void(0)">
+                    <img src="images/clients/5.png" alt="" class="w-100">
+                  </a>
+                </div> <!-- /.item end -->
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="item">
+                  <a href="javascript:void(0)">
+                    <img src="images/clients/6.png" alt="" class="w-100">
+                  </a>
+                </div> <!-- /.item end -->
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="item">
+                  <a href="javascript:void(0)">
+                    <img src="images/clients/7.png" alt="" class="w-100">
+                  </a>
+                </div> <!-- /.item end -->
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="item">
+                  <a href="javascript:void(0)">
+                    <img src="images/clients/8.png" alt="" class="w-100">
+                  </a>
+                </div> <!-- /.item end -->
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="item">
+                  <a href="javascript:void(0)">
+                    <img src="images/clients/9.png" alt="" class="w-100">
+                  </a>
+                </div> <!-- /.item end -->
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="item">
+                  <a href="javascript:void(0)">
+                    <img src="images/clients/10.png" alt="" class="w-100">
+                  </a>
+                </div> <!-- /.item end -->
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="item">
+                  <a href="javascript:void(0)">
+                    <img src="images/clients/11.png" alt="" class="w-100">
+                  </a>
+                </div> <!-- /.item end -->
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="item">
+                  <a href="javascript:void(0)">
+                    <img src="images/clients/12.png" alt="" class="w-100">
+                  </a>
+                </div> <!-- /.item end -->
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="item">
+                  <a href="javascript:void(0)">
+                    <img src="images/clients/13.png" alt="" class="w-100">
+                  </a>
+                </div> <!-- /.item end -->
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="item">
+                  <a href="javascript:void(0)">
+                    <img src="images/clients/14.png" alt="" class="w-100">
+                  </a>
+                </div> <!-- /.item end -->
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="item">
+                  <a href="javascript:void(0)">
+                    <img src="images/clients/15.png" alt="" class="w-100">
+                  </a>
+                </div> <!-- /.item end -->
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="item">
+                  <a href="javascript:void(0)">
+                    <img src="images/clients/16.png" alt="" class="w-100">
+                  </a>
+                </div> <!-- /.item end -->
+              </div>
+            </div> <!-- /.our-clients end -->
+          </div> <!-- /.row end -->
+        </div> <!-- /.container end-->
+      </div> <!-- client-bottom end  -->
+    </div> <!-- /.container -->
+  </section>
+  <!-- Clients section end -->
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="contact-details">
+            <h3 class="title">INTELLI Global Services</h3>
+            <div class="contact-item">
+              <h6 class="heading text-uppercase"> <img src="images/location_icon.png" alt=""
+                  class="w-30">&nbsp;Development Studio</h6>
+              <p class="details">
+                Plot 39/2, Kalachadpur (North Baridhara)
+                <br> Gulshan, Dhaka 1212, Bangladesh.
+              </p>
+            </div> <!-- /.card end-->
+
+            <div class="contact-item">
+              <h6 class="heading text-uppercase center-heading">
+                <img src="images/corporate_icon.png" alt="" class="w-30">&nbsp;Corporate office
+              </h6>
+              <p class="details">
+                Level 3, Akram Center, 212, S.S. Nazrul Islam Sharani
+                <br> Purana Paltan, Dhaka 1000, Bangladesh.
+              </p>
+            </div> <!-- /.card end-->
+            <div class="contact-item">
+              <h6 class="heading text-uppercase">
+                <img src="images/phone_icon.png" alt="" class="w-30">&nbsp;Phone
+              </h6>
+              <p class="details">
+                +88 09666 722788
+              </p>
+            </div> <!-- /.card end-->
+            <div class="contact-item">
+              <h6 class="heading text-uppercase center-mail-heading">
+                <img src="images/mail_icon.png" alt="" class="w-30">&nbsp;Email
+              </h6>
+              <p class="details">
+                info@intelli.global
+              </p>
+            </div> <!-- /.card end-->
+          </div> <!-- /.contact-details end -->
+        </div> <!-- /.col end -->
+        <div class="col-md-6">
+          <div class="contact-form">
+            <h4 class="title">Contact us</h4>
+            <form>
+              <div class="row mb-md-2">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Full name">
+                </div>
+              </div>
+              <div class="row mb-md-2">
+                <div class="col-12 col-md-6">
+                  <input type="text" class="form-control" placeholder="Phone">
+                </div>
+                <div class="col-12 col-md-6">
+                  <input type="text" class="form-control" placeholder="Email">
+                </div>
+              </div>
+              <div class="row mb-md-2">
+                <div class="col">
+                  <textarea name="" class="form-control" id="" cols="30" rows="8" placeholder="Message"></textarea>
+                </div>
+              </div>
+
+              <div class="row mb-md-2">
+                <div class="col">
+                  <button type="button" class="btn btn-secondary btn-lg btn-block submit-btn">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div> <!-- /.contact-form end -->
+        </div> <!-- /.col end -->
+      </div> <!-- /.row end -->
+    </div> <!-- /.container end -->
+  </section> <!-- /#contact section end -->
+
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 m-auto">
+            <div class="footer-logo">
+              <div class="footer-icon">
+                <img src="images/footer-icon.png" alt="INTELLI Global Services" class="w-100">
+              </div>
+              <div class="brand">
+                <span class="brand-title text-uppercase">Intelli</span>
+                <br>
+                <span class="brand-subtitle">Global Services</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 m-auto">
+            <div class="footer-content">
+              <p>
+                A subsidiary of
+                <br> BYSL Global Technology Group
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom" style="background:url('images/footer_end.png') round">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="copyright">
+              <p>
+                &copy; 2021 <span class="semiBold"> Intelli Global</span>. All rights reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+
+  <!-- scripts  -->
+  <!-- bootstrap js  -->
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/all.min.js"></script>
+  <script src="plugins/wow/wow.min.js"></script>
+  <script src="js/mobile-menu.js"></script>
+  <script>
+    var wow = new WOW({
+      boxClass: 'wow', // animated element css class (default is wow)
+      animateClass: 'animated', // animation css class (default is animated)
+      offset: 0, // distance to the element when triggering the animation (default is 0)
+      mobile: true, // trigger animations on mobile devices (default is true)
+      live: true, // act on asynchronously loaded content (default is true)
+      callback: function (box) {
+        // the callback is fired every time an animation is started
+        // the argument that is passed in is the DOM node being animated
+      },
+      scrollContainer: null, // optional scroll container selector, otherwise use window,
+      resetAnimation: true, // reset animation on end (default is true)
+    });
+    wow.init();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,338 @@
+/* Small devices (potrait phones, less than 576px) 575.98px */
+@media (min-width: 100px) and (max-width: 767.98px) { 
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .navbar-toggler-icon {
+        display: inline-block;
+    }
+    #header {
+        background: url('../images/mobile_header_bg.png') round no-repeat;
+        padding-top: 20px;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: rgba(0,0,0,0);
+    }
+    button:focus {
+        outline: 0px dotted; 
+        outline: 0px auto rgba(0,0,0,0);
+    }
+    .menu {
+        position: relative;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    ul.navbar-nav.mr-auto {
+        padding-left: 15px;
+    }
+    .navbar {
+        position: absolute;
+        z-index: 2;
+        padding: .5rem 0;
+    }
+    .social-icon {
+        padding-right: .85rem;
+    }
+    .logo {
+        padding: 0px 45px;
+        min-height: 72vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* about us section  */
+    .about-us {
+        padding: 60px 58px;
+    }
+    .about-us .description {
+        font-size: 1.125rem;
+        letter-spacing: 0.72px;
+        line-height: 30px;
+    }
+    /* service item  */
+    #service {
+        padding: 68px 0px 20px;
+    }
+    .service-item {
+        padding: 0px 105px 58px;
+        overflow: hidden;
+    }
+    /* client section  */
+    #clients .title {
+        font-size: 1.875rem;
+        letter-spacing: 3px;
+        line-height: 35px;
+    }
+    .trust-item {
+        margin-bottom: 32px;
+        padding: 15px 15px 20px 25px;
+        min-height: 225px;
+    }
+    .numericGradient {
+        font-size: 2.875rem;
+    }
+    .trust-item .heading {
+        font-size: 1.875rem;
+        letter-spacing: 0.75px;
+    }
+    .trust-item .details {
+        font-size: 1.25rem;
+        letter-spacing: .2px;
+    }
+    .results-pr {
+        padding-right: 0px;
+    }
+    .gradient-clear {
+        margin: 50px auto 50px;
+    }
+    .fest-border {
+        border-bottom: 24px solid #00c6f8;
+    }
+    .blue-border {
+        border-bottom: 24px solid #002f62;
+    }
+    .pink-border {
+        border-bottom: 24px solid #ff0093;
+    }
+    /* contact section  */
+    #contact {
+        padding: 33px 15px;
+    }
+    .contact-item img.w-30 {
+        width: 20px;
+    }
+    .contact-details .heading {
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 1.6px;
+    }
+    /* .contact-details .center-heading {
+        align-items: center;
+    } */
+    .contact-item .details {
+        font-size: 12px;
+        letter-spacing: 0.35px;
+        line-height: 17px;
+    }
+    #contact .title {
+        font-size: 19px;
+        letter-spacing: 1.9px;
+        line-height: 23px;
+    }
+    .contact-form .form-control {
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.4px;
+        margin-bottom: 5px;
+    }
+    .submit-btn {
+        font-size: 14px;
+        line-height: 11px;
+    }
+    /* footer section  */
+    .footer-top {
+        padding: 30px 0px 14px;
+    }
+    .footer-logo {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 15px;
+        justify-content: center;
+    }
+    .footer-icon {
+        max-width: 70px;
+        flex: 0 1 auto;
+        justify-content: center;
+        min-width: 45px;
+    }
+    .brand {
+        flex: 0 0 auto;
+        padding-left: 10px;
+        justify-content: left;
+    }
+    .brand-title {
+        font-size: 20px;
+    }
+    .brand-subtitle {
+        font-family: 'SofiaProLight';
+        font-size: 14px;
+        letter-spacing: 7px;
+        color: #646c6f;
+    }
+    .footer-logo:after {
+        content: "";
+        width: 3rem;
+        height: 0px;
+        background-color: #4b4b4b;
+        position: absolute;
+        border-bottom: 0.75px solid rgba(0, 0, 0, 1);
+        left: 44%;
+        bottom: 0;
+    }
+    .footer-content {
+        margin-left: 0px;
+        font-size: 12px;
+        letter-spacing: 1.8px;
+        line-height: 19px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .copyright {
+        letter-spacing: 1.2px;
+        font-size: 12px;
+        line-height: 12px;
+        padding-top: 18px;
+        padding-bottom: 2px;
+    }
+}
+/* Small devices (landscape phones, less than 991px) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .navbar-toggler-icon {
+        display: inline-block;
+    }
+    #header {
+        background: url('../images/tablet_header_bg.png') round no-repeat;
+        padding-top: 20px;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: rgba(0,0,0,0);
+    }
+    button:focus {
+        outline: 0px dotted; 
+        outline: 0px auto rgba(0,0,0,0);
+    }
+    .menu {
+        position: relative;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    ul.navbar-nav.mr-auto {
+        padding-left: 15px;
+    }
+    .navbar {
+        position: absolute;
+        z-index: 2;
+        padding: .5rem 0;
+    }
+    .social-icon {
+        padding-right: .85rem;
+    }
+    .logo {
+        padding: 18vh 54px;
+    }
+    /* about us section  */
+    .about-us {
+        padding: 50px 58px;
+    }
+    .about-us .description {
+        font-size: 1.425rem;
+        letter-spacing: 0.75px;
+        line-height: 35px;
+    }
+    /* client section  */
+    #clients .title {
+        font-size: 2.875rem;
+        letter-spacing: 3px;
+        line-height: 50px;
+    }
+    .trust-item {
+        margin-bottom: 32px;
+        padding: 15px 15px 20px 25px;
+        min-height: 350px;
+    }
+    .numericGradient {
+        font-size: 2.875rem;
+    }
+    .trust-item .heading {
+        font-size: 1.875rem;
+        letter-spacing: 0.75px;
+    }
+    .trust-item .details {
+        font-size: 1.25rem;
+        letter-spacing: .2px;
+    }
+    .results-pr {
+        padding-right: 0px;
+    }
+    .gradient-clear {
+        margin: 50px auto 50px;
+    }
+    /* contact section  */
+    #contact {
+        padding: 33px 0px 33px 30px;
+    }
+    .contact-item img.w-30 {
+        width: 20px;
+    }
+    .contact-details .heading {
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 1.6px;
+    }
+    /* .contact-details .center-heading {
+        align-items: center;
+    } */
+    .contact-item .details {
+        font-size: 13px;
+        letter-spacing: 0.35px;
+        line-height: 18px;
+    }
+    #contact .title {
+        font-size: 19px;
+        letter-spacing: 1.9px;
+        line-height: 23px;
+    }
+    .contact-form .form-control {
+        font-size: 14px;
+        line-height: 15px;
+        letter-spacing: 0.4px;
+        margin-bottom: 5px;
+    }
+    .submit-btn {
+        font-size: 14px;
+        line-height: 11px;
+    }
+    /* footer section  */
+    .footer-logo {
+        padding-left: 15px;
+        padding-bottom: 10px;
+        padding-right: 15px;
+    }
+    .footer-icon {
+        max-width: 70px;
+    }
+    .brand-title {
+        font-size: 20px;
+    }
+    .brand-subtitle {
+        font-family: 'SofiaProLight';
+        font-size: 14px;
+        letter-spacing: 7px;
+        color: #646c6f;
+    }
+    .footer-logo:after {
+        content: "";
+        width: 1px;
+        height: 45px;
+        background-color: #4b4b4b;
+        position: absolute;
+        left: 100%;
+        bottom: 35%;
+    }
+    .footer-content {
+        margin-left: 40px;
+        font-size: 14px;
+        letter-spacing: 1.8px;
+        line-height: 19px;
+        text-align: left;
+    }
+    .copyright {
+        letter-spacing: 1.4px;
+        font-size: 14px;
+        line-height: 12px;
+        padding-top: 18px;
+        padding-bottom: 2px;
+    }
+ }
+/* Medium devices (tablets, less than 992px) */

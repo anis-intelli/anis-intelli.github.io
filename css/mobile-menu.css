@@ -1,0 +1,54 @@
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 22px;
+  font-family: 'SofiaProLight';
+}
+.sidebarLogo {
+  max-width: 150px;
+  margin: auto;
+  padding: 20px 10px 10px;
+}
+
+.sidenav a {
+  padding: 10px 10px 8px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  /* color: #818181; */
+  color:rgba(0,0,0,.9);
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  animation: menu-hover-anim 1s linear forwards;
+  animation-delay: .9ms;
+}
+@keyframes menu-hover-anim {
+  50% {
+      color: #fb0093;
+  }
+  100% {
+      color: #fb0093;
+  }
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  font-size: 50px;
+  margin-left: 50px;
+  margin-right: 25px;
+  color: rgba(0,0,0,.9);
+  cursor: pointer;
+}

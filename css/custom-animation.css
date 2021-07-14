@@ -1,0 +1,19 @@
+/* header section  */
+.nav-item:hover a {
+    animation: menu-hover-anim 1s linear forwards;
+    animation-delay: .9ms;
+}
+@keyframes menu-hover-anim {
+    50% {
+        color: #fb0093;
+    }
+    100% {
+        color: #fb0093;
+    }
+}
+.logo img {
+    animation: fadeIn; 
+    animation-duration: 2s; 
+    animation-timing-function: linear;
+    --animate-delay: 5ms;
+}

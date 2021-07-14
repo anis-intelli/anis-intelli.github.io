@@ -1,0 +1,350 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+@font-face {
+    font-family: "ProximaNovaRegular";
+    src: url("../customfonts/proxima_nova_regular.otf");
+    font-weight: 400;
+  }
+@font-face {
+    font-family: "ProximaNovaBold";
+    src: url("../customfonts/proxima_nova_bold.otf");
+    font-weight: 700;
+    }
+@font-face {
+    font-family: "ProximaNovaThin";
+    src: url("../customfonts/proxima_nova_thin.otf");
+    font-weight: 100;
+    }
+@font-face {
+    font-family: "SofiaProBold";
+    src: url("../customfonts/sofia_bold.otf");
+    /* font-weight: 700; */
+    }
+@font-face {
+    font-family: "SofiaProLight";
+    src: url("../customfonts/sofia_light.otf");
+    /* font-weight: 700; */
+    }
+@font-face {
+    font-family: "SofiaProRegular";
+    src: url("../customfonts/sofia_regular.otf");
+    /* font-weight: 100; */
+    }
+@font-face {
+    font-family: "SofiaProSemiBold";
+    src: url("../customfonts/sofia_medium.otf");
+    /* font-weight: 100; */
+    }
+@font-face {
+    font-family: "SofiaProBlack";
+    src: url("../customfonts/sofia_black.otf");
+    /* font-weight: 100; */
+    }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'SofiaProRegular';
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+/* header section  */
+#header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-shadow: 0 0 5px 0px rgba(228,228,228,0.20), 0px 0px 5px rgba(228,228,228,0.20),  0px 40px 40px rgba(230,230,230,0.30), 0px 0px 5px rgba(228,228,228,0.20);
+    min-height: 100vh;
+    background: url('../images/header_background.png') round no-repeat;
+}
+.menu {
+    font-size: 22px;
+    font-family: 'SofiaProLight';
+}
+.navbar-toggler-icon {
+    display: none;
+}
+li.nav-item.active {
+    padding-right: 20px;
+}
+.social-icon {
+    padding-top: 15px;
+}
+.circle-icon {
+    background: #00beff;
+    width: 33px !important;
+    height: 33px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 6px;
+    color: white;
+}
+.social-icon ul li .circle-icon:hover  {
+    animation: social-hover-anim 1s linear forwards;
+    animation-delay: .2ms;
+}
+@keyframes social-hover-anim {
+    50% {
+        background: #fb0093;
+    }
+    100% {
+        background: #fb0093;
+    }
+}
+.logo {
+    width: 300px;
+    margin: auto;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* header section end */
+/* about us section  */
+#about {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.about-us {
+    font-family: "SofiaProBold";
+    padding: 50px 0px;
+}
+.title {
+    font-family: 'sofiaProBlack';
+}
+.about-us .description {
+    font-size: 2rem;
+}
+/* about us section end */
+/* service section  */
+#service {
+    box-shadow: 0 0 40px 40px rgba(228,228,228,0.30), 0px 0px 0px rgba(228,228,228,0.20),  0px 0px 0px rgba(230,230,230,0.20), 0px 0px 0px rgba(228,228,228,0.20);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.service-item {
+    padding: 100px 15px;
+    overflow: hidden;
+}
+/* clients section  */
+#clients {
+    background-color: #f4f7f9;
+    padding: 50px 0px;
+    font-family: 'SofiaProBlack';
+}
+#clients .title{
+    font-size: 4.8rem;
+    text-transform: uppercase;
+    padding-bottom: 35px;
+    letter-spacing: 1.50px;
+    margin-bottom: 0px;
+}
+#clients .features {
+    padding-top: 5px;
+}
+.client-top {
+    padding: 0px 15px;
+}
+.trust-item {
+    background-color: #fff;
+    padding: 15px 15px 15px 25px;
+    border-radius: 20px;
+    min-height: 540px;
+    box-shadow: 0 0 10px 0px rgb(0 0 0 / 15%), 0px 0px 10px rgb(0 0 0 / 15%), 0px 0px 10px rgb(0 0 0 / 15%), 0px 0px 10px rgb(0 0 0 / 15%);
+}
+.results-pr {
+    padding-right: 25px;
+}
+.fest-border {
+    border-bottom: 36px solid #00c6f8;
+}
+.blue-border {
+    border-bottom: 36px solid #002f62;
+}
+.pink-border {
+    border-bottom: 36px solid #ff0093;
+}
+.trust-item .heading {
+    font-size: 3.4rem;
+}
+.trust-item .details {
+    font-family: 'SofiaProRegular';
+    font-size: 30px;
+    letter-spacing: .20px;
+}
+.numericGradient {
+    background: linear-gradient(to bottom, #00c6f8 20%, #bd1fe5 55%, #fa495e 72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 78px;
+}
+.clear {
+    width: 50%;
+    margin: auto;
+    padding: 50px 0px;
+}
+.gradient-clear {
+    width: 25%;
+    height: 2px;
+    margin: 68px auto 50px;
+    position: relative;
+    background: linear-gradient(to right, #820098  0%, #c7009a   35.22%, #00beff   100%);
+  }
+.gradient-clear:after {
+    content: "";
+    position: absolute;
+    left: -100px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-right: 100px solid #820098;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+  }
+.gradient-clear:before {
+    content: "";
+    position: absolute;
+    right: -100px;
+    bottom: 0;
+    width: 0;
+    height: 0px;
+    border-left: 100px solid #00beff;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+  }
+.our-clients {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+.our-clients .item {
+    padding: 5px;
+}
+/* Contact section  */
+#contact {
+    color: #ffffff;
+    background-color: #00a2d3;
+    padding: 110px 0px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#contact .title {
+    font-family: 'SofiaProRegular';
+    padding-bottom: 15px;
+    letter-spacing: 0.075px;
+    font-size: 31px;
+}
+.contact-item {
+    padding-bottom: 10px;
+}
+.contact-item .details {
+    letter-spacing: 1.5px;
+    font-family: 'sofiaProLight';
+    font-size: 16px;
+}
+.contact-details .heading {
+    font-family: 'SofiaProBold';
+}
+.contact-details .center-heading {
+    display: flex;
+    align-items: flex-end;
+}
+.contact-details .center-mail-heading{
+    display: flex;
+    align-items: center;
+}
+.contact-form .form-control {
+    font-family: 'SofiaProLight';
+    border: 1px solid #00a2d3;
+    border-radius: 0px;
+}
+.contact-form .btn-secondary {
+    background-color: #002f62;
+    border-color: #00a2d3;
+}
+.contact-form .btn-lg {
+    border-radius: 0px;
+}
+.contact-form input::placeholder {
+    color: #d7d7d7;
+}
+.contact-form textarea::placeholder {
+    color: #d7d7d7;
+}
+.form-control:focus {
+    color: #495057 !important;
+}
+/* contact section end  */
+/* footer section  */
+.footer-top {
+    padding: 50px 0px 34px;
+}
+.footer-logo {
+    padding-right: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.footer-icon {
+    max-width: 120px;
+}
+.brand {
+    padding-left: 15px;
+}
+.brand-title {
+    font-family: 'SofiaProLight';
+    font-size: 32px;
+    letter-spacing: 14px;
+}
+.brand-subtitle {
+    font-family: 'SofiaProLight';
+    font-size: 18px;
+    letter-spacing: 10px;
+    color: #646c6f;
+}
+.footer-content {
+    font-family: 'SofiaProLight';
+    margin-left: 85px;
+    letter-spacing: 0.22em;
+    font-size: 20px;
+}
+.footer-logo:after {
+    content: "";
+    width: 1px;
+    height: 45px;
+    background-color: #4b4b4b;
+    position: absolute;
+    left: 100%;
+    bottom: 40%;
+}
+.copyright {
+    font-family: 'SofiaProLight';
+    text-align: center;
+    letter-spacing: 3px;
+    padding-top: 30px;
+    padding-bottom: 14px;
+    color: #ffffff;
+    font-size: 18px;
+}
+.semiBold {
+    font-family: 'SofiaProSemiBold';
+}
+/* footer section end  */
+.gradientTitle {
+    background: linear-gradient(to right, #00cdfa 0%, #e90b90 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradientTitleMulti {
+    background: linear-gradient(90deg, #00c6f8 0%, #bd1fe5  50%, #fa495e  100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
